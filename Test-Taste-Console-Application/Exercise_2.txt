@@ -1,0 +1,16 @@
+﻿Exercise 2 Answer
+
+1.The existing solution is a synchronous approach(Except httprequests).
+We can make it asynchronous as each requests are independent loading specific data.
+2.Instead of calculating a Average moon gravity in property,
+We can implement a caching mechanisim to retreive the same value until the moons property gets affected.
+
+Drawbacks of Existing Solution.
+It requires lot of time to execute completely because of its synchronous nature.
+It needs to to calculate Average moon gravity whenever the get property is accessed.
+
+Benifits of Alternative solution.
+
+It is comparitively faster than existing solution.
+It reduces computation.
+
